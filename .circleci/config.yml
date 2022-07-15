@@ -11,4 +11,3 @@ jobs:
                 puts "hello world"
               EOD
           name: hola
-          shell: /bin/bash -euo pipefail
