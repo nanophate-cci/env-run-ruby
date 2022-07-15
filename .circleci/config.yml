@@ -2,11 +2,11 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/ruby:2.7.6
+      - image: cimg/perl:stable
     steps:
       - checkout
       - run: 
           command: |
-              puts "aaa"
+              print "aaa"
           name: hola
-          shell: /usr/bin/env -v ruby
+          shell: /usr/bin/env perl
