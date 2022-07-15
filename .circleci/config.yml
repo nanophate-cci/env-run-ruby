@@ -2,11 +2,11 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/perl:stable
+      - image: cimg/python:stable
     steps:
       - checkout
       - run: 
           command: |
               print "aaa"
           name: hola
-          shell: /usr/bin/env perl
+          shell: /usr/bin/env python
