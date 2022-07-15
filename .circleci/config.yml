@@ -8,7 +8,7 @@ jobs:
       - run: 
           command: |
               ruby \<<EOD
-                put "hello world"
+                puts "hello world"
               EOD
           name: hola
           shell: /bin/bash -euo pipefail
