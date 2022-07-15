@@ -7,7 +7,8 @@ jobs:
       - checkout
       - run: 
           command: |
-              #!/bin/ruby
-              puts "aaa"
+              ruby \<<EOD
+                put "hello world"
+              EOD
           name: hola
           shell: /bin/bash -euo pipefail
