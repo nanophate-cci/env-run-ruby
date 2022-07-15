@@ -7,6 +7,6 @@ jobs:
       - checkout
       - run: 
           command: |
-              print "aaa"
+              print("aaa")
           name: hola
           shell: /usr/bin/env python
