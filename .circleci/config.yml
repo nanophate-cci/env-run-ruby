@@ -14,4 +14,4 @@ jobs:
       - run:
           name: Check Ruby shell
           shell: /usr/bin/env ruby
-          command: puts 'ruby'
+          command: puts 'hi'
