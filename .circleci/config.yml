@@ -15,3 +15,7 @@ jobs:
           name: Check Ruby shell
           shell: ruby
           command: puts 'hi'
+      - run:
+          name: Check Ruby shell
+          shell: /usr/bin/env ruby
+          command: puts 'hi'
