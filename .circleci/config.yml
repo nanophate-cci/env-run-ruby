@@ -3,7 +3,8 @@ jobs:
   build:
     docker:
       - image: cimg/ruby:2.7.6
-      - payments-hub
+    payments-hub:
+      - image: aaaa
     steps:
       - checkout
       - run: 
